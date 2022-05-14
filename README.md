@@ -1,2 +1,2 @@
 # LearnOpenCV
-LearnOpenCV C++ and Python
+LearnOpenCV with C++ and Python
