@@ -24,3 +24,6 @@ target_link_libraries(ImageResizing ${OpenCV_LIBRARIES})
 
 add_executable(ImageRotandTrans src/ImageRotandTrans.cpp)
 target_link_libraries(ImageRotandTrans ${OpenCV_LIBRARIES})
+
+add_executable(Annotating src/Annotating.cpp)
+target_link_libraries(Annotating ${OpenCV_LIBRARIES})
