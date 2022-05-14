@@ -14,7 +14,10 @@ link_directories(
         ${OpenCV_LIBRARIES}
 )
 
-add_executable(LearnOpenCV
+add_executable(VideoCapture
         include/header.h
         src/VideoCapture.cpp)
-target_link_libraries(LearnOpenCV ${OpenCV_LIBRARIES})
+target_link_libraries(VideoCapture ${OpenCV_LIBRARIES})
+
+add_executable(ImageResizing src/ImageResizing.cpp)
+target_link_libraries(ImageResizing ${OpenCV_LIBRARIES})
