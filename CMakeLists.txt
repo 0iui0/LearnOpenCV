@@ -1,0 +1,20 @@
+cmake_minimum_required(VERSION 3.23)
+project(LearnOpenCV)
+
+set(CMAKE_CXX_STANDARD 14)
+
+find_package(OpenCV REQUIRED QUIET)
+include_directories(
+        include
+        ${OpenCV_INCLUDE_DIRS}
+)
+
+link_directories(
+        include
+        ${OpenCV_LIBRARIES}
+)
+
+add_executable(LearnOpenCV
+        include/header.h
+        src/VideoCapture.cpp)
+target_link_libraries(LearnOpenCV ${OpenCV_LIBRARIES})
