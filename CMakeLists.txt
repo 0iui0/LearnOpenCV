@@ -21,3 +21,6 @@ target_link_libraries(VideoCapture ${OpenCV_LIBRARIES})
 
 add_executable(ImageResizing src/ImageResizing.cpp)
 target_link_libraries(ImageResizing ${OpenCV_LIBRARIES})
+
+add_executable(ImageRotandTrans src/ImageRotandTrans.cpp)
+target_link_libraries(ImageRotandTrans ${OpenCV_LIBRARIES})
