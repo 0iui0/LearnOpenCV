@@ -30,3 +30,6 @@ target_link_libraries(Annotating ${OpenCV_LIBRARIES})
 
 add_executable(ImageFiltering src/ImageFiltering.cpp)
 target_link_libraries(ImageFiltering ${OpenCV_LIBRARIES})
+
+add_executable(EdgeDetection src/EdgeDetection.cpp)
+target_link_libraries(EdgeDetection ${OpenCV_LIBRARIES})
