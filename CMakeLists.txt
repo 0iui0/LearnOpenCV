@@ -39,3 +39,6 @@ target_link_libraries(ContourDetection ${OpenCV_LIBRARIES})
 
 add_executable(BackgroundEstimation src/BackgroundEstimation.cpp)
 target_link_libraries(BackgroundEstimation ${OpenCV_LIBRARIES})
+
+add_executable(OpenCVDNN src/OpenCVDNN.cpp)
+target_link_libraries(OpenCVDNN ${OpenCV_LIBRARIES})
