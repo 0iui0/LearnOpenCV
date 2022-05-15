@@ -27,3 +27,6 @@ target_link_libraries(ImageRotandTrans ${OpenCV_LIBRARIES})
 
 add_executable(Annotating src/Annotating.cpp)
 target_link_libraries(Annotating ${OpenCV_LIBRARIES})
+
+add_executable(ImageFiltering src/ImageFiltering.cpp)
+target_link_libraries(ImageFiltering ${OpenCV_LIBRARIES})
