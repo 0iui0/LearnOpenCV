@@ -33,3 +33,6 @@ target_link_libraries(ImageFiltering ${OpenCV_LIBRARIES})
 
 add_executable(EdgeDetection src/EdgeDetection.cpp)
 target_link_libraries(EdgeDetection ${OpenCV_LIBRARIES})
+
+add_executable(ContourDetection src/ContourDetection.cpp)
+target_link_libraries(ContourDetection ${OpenCV_LIBRARIES})
