@@ -4,5 +4,7 @@
 
 #ifndef LEARNOPENCV_HEADER_H
 #define LEARNOPENCV_HEADER_H
-
+#include <iostream>
+#include "vector"
+using namespace std;
 #endif //LEARNOPENCV_HEADER_H

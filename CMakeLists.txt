@@ -14,6 +14,8 @@ link_directories(
         ${OpenCV_LIBRARIES}
 )
 
+add_executable(Test src/Test.cpp)
+
 add_executable(VideoCapture
         include/header.h
         src/VideoCapture.cpp)
